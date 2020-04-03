@@ -4,13 +4,16 @@ import { Form } from 'semantic-ui-react'
 class PokemonForm extends React.Component {
   constructor() {
     super()
-
     this.state = {
       name: '',
       hp: '',
       frontUrl: '',
       backUrl: ''
     }
+  }
+
+  handleSubmit = (event) => {
+    this.props.onSubmit(event.target)
   }
 
   render() {
