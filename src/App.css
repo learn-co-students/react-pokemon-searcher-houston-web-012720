@@ -21,3 +21,13 @@
 .App-intro {
   font-size: large;
 }
+
+.close {
+  color: #aaaaaa;
+  float: right;
+  position: relative;
+  right: 10px;
+  font-size: 28px;
+  font-weight: bold;
+  cursor: pointer;
+}
